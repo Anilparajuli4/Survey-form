@@ -1,182 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Work+Sans:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Work+Sans:wght@400;500&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'roboto';
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    background-image: url(back.jpg);
-    background-size: cover;
-    color: white;
-    
+body {
+  font-family: "roboto";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-size: cover;
+  color: white;
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
- .title{
-    margin-bottom: 10px;
- }
- .description{
-    
- }
-
-.survey-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 650px;
-    height: auto;
-    margin-top: 40px;
-    border: 2px solid rgb(22, 22, 62);
-    background-color: rgb(22, 22, 62);
-    
+.title {
+  margin-bottom: 10px;
 }
 
-.name-label{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.name{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.Email-label{
-   margin-top: 20px;
-   font-size: 20px;
-   margin-bottom: 10px;
-}
-.email{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.Age-label{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.Age{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.current-role{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.role{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.recommend{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px
-}
-.definitly{
-    font-size: 20px;
-    margin-bottom: 10px
-}
-.maybe{
-    font-size: 20px;
-    margin-bottom: 10px
-}
-.not-sure{
-    font-size: 20px;
-    margin-bottom: 10px
-}
-.feature-label{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.feature{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-}
-.improved-label{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.frontend{
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.backend{
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.data-v{
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-.challenges{
-    margin-bottom: 10px;
-    font-size: 20px;
-
-}
-.open-community{
-    margin-bottom: 10px;
-    font-size: 20px;
+.survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+  height: auto;
+  margin-top: 40px;
+  border: 2px solid rgb(22, 22, 62);
+  background-color: rgb(22, 22, 62);
 }
 
-.frontend{
-    margin-bottom: 10px;
-    font-size: 20px;
+.name-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.help-r0om{
-    margin-bottom: 10px;
-    font-size: 20px;
+.name {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
 }
-.videos{
-    margin-bottom: 10px;
-    font-size: 20px;
+.Email-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.city-meetup{
-    margin-bottom: 10px;
-    font-size: 20px;
+.email {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
 }
-.wiki{
-    margin-bottom: 10px;
-    font-size: 20px;
+.Age-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.additional-course{
-    margin-bottom: 10px;
-    font-size: 20px;
+.Age {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
 }
-.comment-label{
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 10px;
+.current-role {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
-.comment{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
+.role {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
 }
-.btn{
-    width: 85%;
-    padding: 5px 0;
-    border-radius: 5px;
-    font-size: 15px;
-    background-color: rgb(26, 223, 158);
-    margin-top: 20px;
-    margin-bottom: 20px;
+.recommend {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.definitly {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.maybe {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.not-sure {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.feature-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.feature {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.improved-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.frontend {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.backend {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.data-v {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.challenges {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.open-community {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.frontend {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.help-r0om {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.videos {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.city-meetup {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.wiki {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.additional-course {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.comment-label {
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.comment {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn {
+  width: 85%;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: rgb(26, 223, 158);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
